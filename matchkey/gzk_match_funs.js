@@ -44,6 +44,9 @@ function doMatchProc(strMatchSource) {
             var arrayMatchTypeLength = doMatchCarType(strLineSourceTrim);
             jsonItemInfo.arrayCarType = arrayMatchTypeLength;
 
+            var arrayMatchInfoRemark = doMatchInfoRemark(strLineSourceTrim);
+            jsonItemInfo.arrayInfoRemark = arrayMatchInfoRemark;
+
             jsonMatch.matchAreaLine.push(jsonItemInfo);
         }
 
@@ -93,6 +96,9 @@ function doMatchResultFormat() {
             strReturn += ("; 需"+strCarInfo);
         }
 
+        if (infoTemp.arrayInfoRemark.length>0){
+            strReturn += ("; "+infoTemp.arrayInfoRemark);
+        }
 
         strReturn += ("\r\n\r\n");
 
@@ -150,6 +156,13 @@ function doMatchCarLength(strWithSource) {
 function doMatchCarType(strWithSource) {
     var exp = new
         RegExp(json_FMMatchKey.carType.strExp, "gim");
+    var arrayMatch = strWithSource.match(exp);
+    return (arrayMatch==null?[]:arrayMatch);
+}
+
+function doMatchInfoRemark(strWithSource) {
+    var exp = new
+        RegExp(json_FMMatchKey.remark.strExp, "gim");
     var arrayMatch = strWithSource.match(exp);
     return (arrayMatch==null?[]:arrayMatch);
 }

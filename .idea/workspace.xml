@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1fba7b7-95f4-4159-b294-3ea3c9a42e51" name="Default" comment="">
+    <list default="true" id="b1fba7b7-95f4-4159-b294-3ea3c9a42e51" name="Default" comment="优化匹配">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/matchkey/gzk_match_funs.js" afterPath="$PROJECT_DIR$/matchkey/gzk_match_funs.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/matchkey/match_key.js" afterPath="$PROJECT_DIR$/matchkey/match_key.js" />
@@ -41,21 +41,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="match_key.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="match_key.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/matchkey/match_key.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1050">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="384">
+              <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gzk_match_funs.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gzk_match_funs.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/matchkey/gzk_match_funs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+            <state relative-caret-position="-25">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="e#0#48#0" expanded="false" />
               </folding>
@@ -81,8 +81,8 @@
       <list>
         <option value="$PROJECT_DIR$/script/gzk_pub_funs.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/matchkey/match_key.js" />
         <option value="$PROJECT_DIR$/matchkey/gzk_match_funs.js" />
+        <option value="$PROJECT_DIR$/matchkey/match_key.js" />
       </list>
     </option>
   </component>
@@ -266,7 +266,7 @@
       <option name="presentableId" value="Default" />
       <updated>1528261103261</updated>
       <workItem from="1528261104633" duration="2433000" />
-      <workItem from="1528266903984" duration="7032000" />
+      <workItem from="1528266903984" duration="9112000" />
     </task>
     <task id="LOCAL-00001" summary="change match key car length">
       <created>1528268647886</created>
@@ -289,17 +289,24 @@
       <option name="project" value="LOCAL" />
       <updated>1528271437438</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="优化匹配">
+      <created>1528274497863</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1528274497863</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9465000" />
+    <option name="totallyTimeSpent" value="11545000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1065" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16332982" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16332982" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -335,7 +342,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change match key car length" />
-    <option name="LAST_COMMIT_MESSAGE" value="change match key car length" />
+    <MESSAGE value="优化匹配" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化匹配" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -434,21 +442,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/matchkey/match_key.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1050">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/matchkey/gzk_match_funs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+        <state relative-caret-position="-25">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="e#0#48#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matchkey/match_key.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
