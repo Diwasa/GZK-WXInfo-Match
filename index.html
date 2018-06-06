@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GZK WXInfo Match</title>
+    <script src="script/jquery-1.12.3.min.js"></script>
+    <script src="script/gzk_pub_funs.js"></script>
+    <script src="matchkey/match_key.js"></script>
+    <script src="matchkey/gzk_match_funs.js"></script>
+
+    <style>
+        body {
+            text-align: left;
+            font-family: "黑体";
+            margin: 10px;
+        }
+
+        body div {
+            max-width: 1000px;
+            margin: auto;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body onload="">
+    <textarea style="width: 500px; height: 300px" id="textSource">
+舟山=广州求6.8米冷藏车
+广西贺州=凭祥求15米冷藏车
+舟山=广州10吨冻品求配
+江苏淮安=江西九江10吨冻品求配
+微电:邹13817603992
+    </textarea>
+    <div><button onclick="doMatchSource();">Match</button></div>
+    <textarea style="width: 500px; height: 300px" id="textMatch"></textarea>
+</body>
+</html>
+
+<script>
+    function doMatchSource() {
+        doMatchProc($("#textSource").val());
+    }
+    doShowDebugLog("aa","bb");
+</script>
