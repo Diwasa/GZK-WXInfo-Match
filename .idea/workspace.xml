@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1fba7b7-95f4-4159-b294-3ea3c9a42e51" name="Default" comment="优化匹配">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/matchkey/gzk_match_funs.js" afterPath="$PROJECT_DIR$/matchkey/gzk_match_funs.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/matchkey/match_key.js" afterPath="$PROJECT_DIR$/matchkey/match_key.js" />
     </list>
     <list id="56767f08-7879-48c4-9e7b-5b3a07ce3b22" name="Rejected commit: Default" comment="" />
@@ -44,8 +42,8 @@
       <file leaf-file-name="match_key.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/matchkey/match_key.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+            <state relative-caret-position="634">
+              <caret line="43" column="573" selection-start-line="43" selection-start-column="573" selection-end-line="43" selection-end-column="573" />
               <folding />
             </state>
           </provider>
@@ -54,8 +52,8 @@
       <file leaf-file-name="gzk_match_funs.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/matchkey/gzk_match_funs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-25">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="1875">
+              <caret line="77" column="9" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
               <folding>
                 <element signature="e#0#48#0" expanded="false" />
               </folding>
@@ -266,7 +264,7 @@
       <option name="presentableId" value="Default" />
       <updated>1528261103261</updated>
       <workItem from="1528261104633" duration="2433000" />
-      <workItem from="1528266903984" duration="9112000" />
+      <workItem from="1528266903984" duration="10521000" />
     </task>
     <task id="LOCAL-00001" summary="change match key car length">
       <created>1528268647886</created>
@@ -300,10 +298,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11545000" />
+    <option name="totallyTimeSpent" value="12954000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1065" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1065" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16332982" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -444,8 +442,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/matchkey/gzk_match_funs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="1875">
+          <caret line="77" column="9" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
           <folding>
             <element signature="e#0#48#0" expanded="false" />
           </folding>
@@ -454,8 +452,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/matchkey/match_key.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+        <state relative-caret-position="634">
+          <caret line="43" column="573" selection-start-line="43" selection-start-column="573" selection-end-line="43" selection-end-column="573" />
           <folding />
         </state>
       </provider>
