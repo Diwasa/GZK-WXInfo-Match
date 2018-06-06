@@ -10,7 +10,7 @@ function doMatchProc(strMatchSource) {
     jsonMatch.matchPhone = doMatchPhone(strMatchSource);
     doShowDebugLog("matchPhone", jsonMatch.matchPhone);
 
-    var arrayMatchAreaLine = doMatchAreaLine(strMatchSource+"\n");
+    var arrayMatchAreaLine = doMatchAreaLine(strMatchSource+"\n\n");
     doShowDebugLog("arrayMatchAreaLine", arrayMatchAreaLine);
 
     if (arrayMatchAreaLine!=null){
@@ -61,8 +61,8 @@ function doMatchResultFormat() {
     for (var intTempIndex=0; intTempIndex<jsonMatch.matchAreaLine.length; intTempIndex++){
         var infoTemp = jsonMatch.matchAreaLine[intTempIndex];
 
-        strReturn += infoTemp.strLineSource;
-        strReturn += ("\r\n");
+        //strReturn += infoTemp.strLineSource;
+        //strReturn += ("\r\n");
 
         strReturn += (infoTemp.areaInfo.areaFrom.areaSource);
         strReturn += (" -> ");
@@ -83,10 +83,10 @@ function doMatchResultFormat() {
 
         var strCarInfo = "";
         if (infoTemp.arrayCarLength.length>0){
-            strCarInfo += infoTemp.arrayCarLength;
+            strCarInfo += infoTemp.arrayCarLength[infoTemp.arrayCarLength.length-1];
         }
         if (infoTemp.arrayCarType.length>0){
-            strCarInfo += infoTemp.arrayCarType;
+            strCarInfo += infoTemp.arrayCarType[infoTemp.arrayCarType.length-1];
         }
         if (strCarInfo!=""){
             //strReturn += ("需"+strCarInfo+"\r\n");
